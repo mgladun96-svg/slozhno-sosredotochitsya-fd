@@ -16,8 +16,8 @@
   --button-color: #353430;
   --button-hover-color: rgba(50, 49, 45, 0.4);
   --title-color: #FFC2E6;
-  --h3-color: #353430;
-  --h3-bg-color: #FF8DCB;
+  --title-decor-color: #353430;
+  --title-decor-bg-color: #FF8DCB;
   --section-title-color: #353430;
   --section-text-color: #353430;
   --link-color: #353430;
@@ -33,8 +33,8 @@
     --button-color: #353430;
     --button-hover-color: rgba(50, 49, 45, 0.4);
     --title-color: #FFC2E6;
-    --h3-color: #353430;
-    --h3-bg-color: #FF8DCB;
+    --title-decor-color: #353430;
+    --title-decor-bg-color: #FF8DCB;
     --section-title-color: #353430;
     --section-text-color: #353430;
     --link-color: #353430;
