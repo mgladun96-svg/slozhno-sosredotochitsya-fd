@@ -255,6 +255,7 @@
     width: calc(50% - 10px);
     justify-self: end;
     align-self: center;
+    margin-bottom: 20px;
   } 
 
   .section {
@@ -286,14 +287,20 @@
   }
 
   .section-causes .section-title {
-    grid-row-start: 1;
+    grid-row: 1;
+    grid-column: 1;
     margin-bottom: 20px;
   }
 
-  .section-causes .article {
-    grid-row-start: auto;
-    grid-column: 1 / -1;
+  .section-causes::before {
+    content: "";
+    grid-row: 1;
+    grid-column: 2 / -1;
   }
+
+  .section-causes .article {
+    grid-column: 1 / -1;
+  } 
 
   .section-advices {
     margin-bottom: 60px;
@@ -390,9 +397,9 @@
   }
 
   .section-causes .article {
-    grid-row-start: 2;
-    grid-column: 1 span;
-  }
+    grid-row-start: auto;
+    grid-column: auto;
+  } 
 
   .section-advices .article {
     padding-left: 3px;
